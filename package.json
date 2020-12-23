@@ -1,0 +1,31 @@
+{
+  "name": "log-webpack-plugin",
+  "version": "1.0.0",
+  "description": "log-webpack-plugin",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --disableHostCheck=true --progress --colors --devtool inline-source-map --hot --inline",
+    "build": "webpack --progress --colors --devtool cheap-module-source-map -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benjaminbai/log-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin"
+  ],
+  "author": "benjamin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Benjaminbai/log-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/Benjaminbai/log-webpack-plugin#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.5.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
